@@ -1,0 +1,195 @@
+
+body {
+     font-family: Museo, serif;
+     background-color: rgb(216, 108, 20);
+     background-color: #e5e5f7;
+     opacity: 1;
+     background-image:  linear-gradient(135deg, #d7d8eb 25%, transparent 25%), linear-gradient(225deg, #e9d043 25%, transparent 25%), linear-gradient(45deg, #f7d644 25%, transparent 25%), linear-gradient(315deg, #8387d1 25%, #e5e5f7 25%);
+     background-position:  4px 0, 4px 0, 0 0, 0 0;
+     background-size: 4px 4px;
+     background-repeat: repeat;
+
+} 
+.museo{
+    font-size: 200px;
+    font-weight: 900;
+    text-align: center;
+    animation: h1 10s 100;
+    text-shadow: 30px 6px 4px rgb(90, 89, 88, 0.5);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+
+} 
+.created{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+}
+.in{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+}
+h2 {/*jos buivenga*/
+    font-size: 70px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 900;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    animation: jos 10s 300;
+}
+.h6 {  /*1994*/
+    font-size: 200px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 30px 6px 4px rgb(175, 175, 175,0.5);
+} 
+    .love{
+        animation: year 10s 100;
+    }
+    .letter{
+        animation: year1 10s 100;
+    }
+.because{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+    position: relative; top: 30px;
+}
+.uno{
+    animation: year 10s 100;
+}
+.nueve{
+    animation: year 10s 100;
+}
+.nueve2{
+    animation: year1 10s 100;
+}
+.cuatro{
+    animation: year1 10s 100;
+}
+p{ /*paragraph*/
+    text-indent: 3px;
+    font-size: 30px;
+    column-count:2;
+    column-gap: 9em;
+    position: relative; bottom: 600px; left: 0px;
+    text-align: justify;
+    line-height: 2em;
+    opacity: 100%;
+}
+h3{ /*love for the letter*/
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    position: static; left: 0px; bottom: 0px;
+    text-align: center;
+}
+.numbers{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative; bottom: 80px; left: 0px;
+}
+    .number1{
+        font-size: 60px;
+        animation: weight 10s 100;
+
+    }
+    .number2{
+        font-size: 60px;
+        animation: weights 10s 100;
+    
+   
+    }
+    .number3{
+        font-size: 60px;
+        animation: weight 10s 100;
+        
+    }
+    .number4{
+        font-size: 60px;
+        animation: weights 10s 100;
+        
+    }
+    .number5{
+        font-size: 60px;
+        animation: weight 10s 100; 
+    }
+.u2{
+    font-size: 500px;
+    
+}
+@keyframes year {
+    0%{
+        position: relative; right: 0px;
+    }
+    50%{
+        position: relative; right: 100px;
+    }
+    100%{
+        position: relative; right: 0px;
+    }
+}
+@keyframes year1{
+    0%{
+        position: relative; left: 0px;
+    }
+    50%{
+        position: relative; left: 100px;
+    }
+    100%{
+        position: relative; left: 0px;
+    }
+
+}
+@keyframes h1 {
+    0%{
+        color: none;
+        
+    }
+    50%{
+    
+        letter-spacing: 0.08em;
+    }
+    100%{
+        color: none;
+    }
+}
+@keyframes jos{
+    0%{
+        letter-spacing: .2em;
+    }
+}
+  @keyframes weight{
+    0%{
+        position: relative; right: 0px;
+    
+    }
+    50%{
+        position: relative; right: 100px;
+        opacity: 0%;
+    }
+    100%{
+        position: relative; right: 0px;
+    }
+      
+  }
+  @keyframes weights{
+    0%{
+        position: relative; left: 0px;
+    }
+    50%{
+        position: relative; left: 100px;
+        opacity: 0%;
+    }
+    100%{
+        position: relative; left: 0px;
+    }
+
+  }
